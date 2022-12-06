@@ -10,7 +10,6 @@ import {
   NestFastifyApplication,
 } from '@nestjs/platform-fastify';
 import { AppModule } from './app.module';
-import { generateDocument } from './doc';
 
 declare const module: any;
 
